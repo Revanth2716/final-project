@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive UI</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="menu.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link
+    href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+  />
+  <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+      <!-- <h1>Welcome to Burger World</h1>
+      <nav>
+        <div class="menu-wrap">
+          <input type="checkbox" class="toggler" />
+          <div class="hamburger">
+            <div></div>
+          </div>
+          <div class="menu">
+            <div>
+              <div>
+                <ul>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#gallery">Gallery</a></li>
+                  <li><a href="#information">Information</a></li>
+                  <li><a href="#Items">Items</a></li>
+                  <li><a href="#login/signup">Login/signup</a></li>
+                  <li><a href="#Contact Us">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav> -->
+      <header class="header">
+        <nav>
+          <div class="nav__header">
+            <div class="nav__logo">
+              <a href="#">
+                <img
+                  src="assets/logo-dark.png"
+                  alt="logo"
+                  class="nav__logo-dark"
+                />
+                <img
+                  src="assets/logo-white.png"
+                  alt="logo"
+                  class="nav__logo-white"
+                />
+              </a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+              <i class="ri-menu-line"></i>
+            </div>
+          </div>
+          <ul class="nav__links" id="nav-links">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#special">SPECIAL</a></li>
+            <li><a href="#menu">MENU</a></li>
+            <li><a href="#login">LoGIN/SIGNUP</a></li>
+            <li><a href="#Contact Us">CONTACT US</a></li>
+          </ul>
+        </nav>
+        <div class="section__container header__container" id="home">
+          <div class="header__image">
+            <img src="assets/header.png" alt="header" />
+          </div>
+          <div class="header__content">
+            <h2>IT IS GOOD TIME FOR HAVING BURGER</h2>
+            <h1>BURGER<br /><span>PLACE</span></h1>
+          </div>
+        </div>
+      </header>
+    <!-- <section id="about">
+      <h2>About Us</h2>
+      <p>A premium burger experience crafted with love and quality ingredients.</p>
+      <a href="#" class="btn">Read More</a>
+    </section>
+    <section class="btn" id="gallery">
+      <h2>Gallery</h2>
+      <div>
+      <a href="https://www.burgerking.in/product-listing"><img
+        src="./330px-Cheeseburger_at_Louis'_Lunch,_New_Haven.jpg"
+        alt="Image 1"
+      /></a>
+      <a href="https://www.zomato.com/hyderabad/mcdonalds-himayath-nagar/order?contextual_menu_params=eyJkaXNoX3NlYXJjaCI6eyJ0aXRsZSI6IkJlc3QgaW4gQnVyZ2VyIiwiZGlzaF9pZHMiOlsiOTA1NSJdLCJjdWlzaW5lX2lkcyI6W119fQ%3D%3D"><img
+        src="./330px-Oberhafenkantine_(Hamburger_Rundstück).jpg"
+        alt="Image 2"
+      /></a>
+      <a href="https://www.zomato.com/hyderabad/burger-king-malakpet/order?contextual_menu_params=eyJkaXNoX3NlYXJjaCI6eyJ0aXRsZSI6IkJlc3QgaW4gQnVyZ2VyIiwiZGlzaF9pZHMiOlsiOTA1NSJdLCJjdWlzaW5lX2lkcyI6W119fQ%3D%3D"><img src="./Hamburg_steak.jpg" alt="Image 3" /></a>
+      <a href="https://www.zomato.com/hyderabad/kfc-abids/order?contextual_menu_params=eyJkaXNoX3NlYXJjaCI6eyJ0aXRsZSI6IkJlc3QgaW4gQnVyZ2VyIiwiZGlzaF9pZHMiOlsiOTA1NSJdLCJjdWlzaW5lX2lkcyI6W119fQ%3D%3D"><img src="./OIP.jpeg" alt="Image 4" /></a>
+      </div>
+    </section> -->
+    <section class="section__container order__container" id="menu">
+      <h3>ALWAYS TASTEY BURGER</h3>
+      <h2 class="section__header">CHOOSE & ENJOY</h2>
+      <p class="section__description">
+        Whether you crave classic flavors or daring combinations, this is where
+        your culinary journey begins. Indulge your cravings and savor every bite
+        as you create your personalized burger experience with Burger Company.
+      </p>
+      <div class="order__grid">
+        <div class="order__card">
+          <img src="assets/order-1.png" alt="order" />
+          <h4>Chicken Burger</h4>
+          <p>
+            Sink your teeth into the timeless perfection of our Chicken Burger,
+            an experience that never goes out of style.
+          </p>
+          <button class="btn">ORDER NOW</button>
+        </div>
+        <div class="order__card">
+          <img src="assets/order-2.png" alt="order" />
+          <h4>Veggie Delight Burger</h4>
+          <p>
+            Embrace the vibrant flavors of our Veggie Delight Burger, a
+            celebration of freshness and wholesome goodness.
+          </p>
+          <button class="btn">ORDER NOW</button>
+        </div>
+        <div class="order__card">
+          <img src="assets/order-3.png" alt="order" />
+          <h4>BBQ Bacon Burger</h4>
+          <p>
+            Indulge in a symphony of smoky, savory flavors with our BBQ Bacon
+            Burger, grilled and topped with crispy bacon.
+          </p>
+          <button class="btn">ORDER NOW</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="section__container event__container" id="event">
+      <div class="event__content">
+        <div class="event__image">
+          <img src="assets/event.png" alt="event" />
+        </div>
+        <div class="event__details">
+          <h3>Discover</h3>
+          <h2 class="section__header">UPCOMING EVENTS</h2>
+          <p class="section__description">
+            From exclusive burger tastings and chef collaborations to community
+            outreach initiatives and seasonal celebrations, there's always
+            something special on the horizon at Burger Company. Be the first to
+            know about our upcoming events, promotions, and gatherings as we
+            continue to bring joy and flavor to our cherished customers. Join us
+            in creating memorable moments and delicious memories together!
+          </p>
+        </div>
+      </div>
+    </section> -->
+    <section class="logo">
+      <section id="login" class="log">
+        <div class="profile-card">
+          <div class="image">
+            <img
+              src="./295128.png"
+              alt="images"
+              class="profile-img"
+            />
+          </div>
+
+          <div class="text-data">
+            <span class="name">Login</span>
+            <span class="job">Fill the Details</span>
+          </div>
+          <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required />
+            <label for="password">Password:</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              required
+            /><br />
+            <button type="submit">Login</button>
+          </form>
+
+          <div class="media-buttons">
+            <a href="#" style="background: #4267b2" class="link">
+              <i class="bx bxl-facebook"></i>
+            </a>
+            <a href="#" style="background: #1da1f2" class="link">
+              <i class="bx bxl-twitter"></i>
+            </a>
+            <a href="#" style="background: #e1306c" class="link">
+              <i class="bx bxl-instagram"></i>
+            </a>
+            <a href="#" style="background: #ff0000" class="link">
+              <i class="bx bxl-youtube"></i>
+            </a>
+          </div>
+
+          <div class="buttons">
+            <button class="button">Subscribe</button>
+            <button class="button">Message</button>
+          </div>
+        </div>
+      </section>
+      <section id="signup" class="log">
+        <div class="profile-card">
+          <div class="image">
+            <img src="./6159448.png" alt="" class="profile-img" />
+          </div>
+
+          <div class="text-data">
+            <span class="name">Sign up</span>
+            <span class="job">Fill the Details</span>
+          </div>
+          <br />
+          <form>
+            <label for="new-username">Username:</label>
+            <input
+              type="text"
+              id="new-username"
+              name="new-username"
+              required
+            />
+            <label for="new-password">Password:</label>
+            <input
+              type="password"
+              id="new-password"
+              name="new-password"
+              required
+            />
+            <label for="new-password">Confirm-password:</label>
+            <input
+              type="password"
+              id="new-password"
+              name="new-password"
+              required
+            /><br />
+            <button type="submit">Sign Up</button>
+          </form>
+
+          <div class="media-buttons">
+            <a href="#" style="background: #4267b2" class="link">
+              <i class="bx bxl-facebook"></i>
+            </a>
+            <a href="#" style="background: #1da1f2" class="link">
+              <i class="bx bxl-twitter"></i>
+            </a>
+            <a href="#" style="background: #e1306c" class="link">
+              <i class="bx bxl-instagram"></i>
+            </a>
+            <a href="#" style="background: #ff0000" class="link">
+              <i class="bx bxl-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section id="Contact Us">
+      <div class="container">
+        <div class="content">
+          <div class="left-side">
+            <div class="address details">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="topic">Address</div>
+              <div class="text-one">Hyderabad,kphb colony</div>
+              <div class="text-two">Road no-3 near cups</div>
+            </div>
+            <div class="phone details">
+              <i class="fas fa-phone-alt"></i>
+              <div class="topic">Phone</div>
+              <div class="text-one">+91 1234567890</div>
+              <div class="text-two">+91 9876543210</div>
+            </div>
+            <div class="email details">
+              <i class="fas fa-envelope"></i>
+              <div class="topic">Email</div>
+              <div class="text-one">burgerking@gmail.com</div>
+              <div class="text-two">info.burgers@gmail.com</div>
+            </div>
+          </div>
+          <div class="right-side">
+            <div class="topic-text">Send us a message</div>
+            <p>
+              If you have any work from me or any types of quries related to my
+              BURGERS, you can send me message from here. It's my pleasure to
+              help you.
+            </p>
+            <form action="#">
+              <div class="input-box">
+                <input type="text" placeholder="Enter your name" />
+              </div>
+              <div class="input-box">
+                <input type="text" placeholder="Enter your email" />
+              </div>
+              <div class="input-box message-box"></div>
+              <div class="button">
+                <input type="button" value="Send Now" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__logo">
+          <img src="assets/logo-white.png" alt="logo" />
+        </div>
+        <div class="footer__content">
+          <p>
+            Welcome to Burger Company, where passion for exceptional food and
+            genuine hospitality come together. Our story is one of dedication to
+            crafting the perfect burger experience, from sourcing the finest
+            ingredients to delivering unparalleled taste in every bite.
+          </p>
+          <div>
+            <ul class="footer__links">
+              <li>
+                <span><i class="ri-map-pin-2-fill"></i></span>
+                kphb Road, Hyderabad, 500089
+              </li>
+              <li>
+                <span><i class="ri-mail-fill"></i></span>
+                info@burgerhouse.com
+              </li>
+            </ul>
+            <div class="footer__socials">
+              <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+              <a href="#"><i class="ri-instagram-fill"></i></a>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+              <a href="#"><i class="ri-whatsapp-fill"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
+
+  </body>
+</html>
